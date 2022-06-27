@@ -1,7 +1,7 @@
 import csv
 
 data = []
-with open("P129/stars.csv","r") as f:
+with open("data1.csv","r",encoding='utf8') as f:
     csvreader = csv.reader(f)
     for row in csvreader:
         data.append(row)
